@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&family=Raleway&display=swap');
+
+body {
+    background-color: #E8DAB2;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 15% 0 25% 0;
+}
+
+
+h1 {
+    font-size: 52px;
+    margin: 0;
+
+}
+
+h2 {
+    font-size: 30px;
+}
+
+section p {
+    line-height: 24px;
+}
+
+h3 {
+    font-size: 26px;
+    font-style: italic;
+    line-height: 0px;
+
+}
+
+.tamanhoImagem {
+    width: 370px;
+    height: 192px;
+}
+
+.card {
+    width: 800px;
+    padding: 34px 24px 10px 24px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.conteudo {
+    padding: 0 15px;
+}
+
+.foto {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #090909;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+    padding: 16px;
+}
+
+.espacamento{
+    margin-bottom: 100px;
+}
+
+footer p a{
+    color: #35B1D2;
+}
