@@ -12,8 +12,8 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
-    margin: 15% 0 25% 0;
+    align-items: center;
+    height: 100vh;
 }
 
 
@@ -76,10 +76,10 @@ footer p {
     padding: 16px;
 }
 
-.espacamento{
+.espacamento {
     margin-bottom: 100px;
 }
 
-footer p a{
+footer p a {
     color: #35B1D2;
 }
